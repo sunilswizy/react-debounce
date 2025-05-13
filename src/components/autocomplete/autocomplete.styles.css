@@ -1,0 +1,19 @@
+.auto-complete {
+    width: 100%;
+    max-height: 200px;
+    overflow-y: scroll;
+    margin-top: 15px;
+}
+
+.autocomplete-child {
+    border: 1px solid;
+    padding: 5px 0;
+}
+
+.autocomplete-child:hover, .selected {
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}

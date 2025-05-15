@@ -34,4 +34,4 @@ export function throttle(fn: (...args: any[]) => unknown, delay = 100) {
         shouldWait = true;
         setTimeout(timeOutFunc, delay)
     }
-}
+};
